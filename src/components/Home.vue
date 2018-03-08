@@ -16,7 +16,7 @@
         </router-link>
       </div>
       </div>
-    </section>
+     </section>
 
     <section class="section">
       <div class="container">
@@ -39,10 +39,88 @@
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title has-text-centered">Skills</h1>
+        <h2 class="subtitle has-text-centered">I have worked with various different technologies in my self-driven projects</h2>
+        <div class="columns">
+          <div class="column is-one-third">
+            <div class="card has-shadow">
+              <div class="card-content">
+                <p class="title has-text-centered">
+                  <span class="icon">
+                    <i class="fab fa-angular"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="card has-shadow">
+              <div class="card-content">
+                <p class="title has-text-centered">
+                  <span class="icon">
+                    <i class="fab fa-vuejs"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="card has-shadow">
+              <div class="card-content">
+                <p class="title has-text-centered">
+                  <span class="icon">
+                    <i class="fab fa-android"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-one-third">
+            <div class="card has-shadow">
+              <div class="card-content">
+                <p class="title has-text-centered">
+                  <span class="icon">
+                    <i class="fab fa-angular"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="card has-shadow">
+              <div class="card-content">
+                <p class="title has-text-centered">
+                  <span class="icon">
+                    <i class="fab fa-vuejs"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="card has-shadow">
+              <div class="card-content">
+                <p class="title has-text-centered">
+                  <span class="icon">
+                    <i class="fab fa-android"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </section>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'home',
   data () {
@@ -54,7 +132,11 @@ export default {
       subsection: ''
   
     }
-  }
+    
+  },
+
+    methods: {
+    }
 }
 </script>
 

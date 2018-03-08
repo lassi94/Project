@@ -85,7 +85,7 @@
               <div class="card-content">
                 <p class="title has-text-centered">
                   <span class="icon">
-                    <i class="fab fa-angular"></i>
+                    <i class="fab fa-html5"></i>
                   </span>
                 </p>
               </div>
@@ -96,7 +96,7 @@
               <div class="card-content">
                 <p class="title has-text-centered">
                   <span class="icon">
-                    <i class="fab fa-vuejs"></i>
+                    <i class="fab fa-css3-alt"></i>
                   </span>
                 </p>
               </div>

@@ -4,6 +4,9 @@
         <h1 class="title">
           {{ title }}
         </h1>
+        <h2 class="subtitle">
+            {{ subtitle }}
+        </h2>
         <div class="field">
             <div class="columns">
                 <div class="column is-5">
@@ -42,7 +45,8 @@ export default {
     name: 'Contact',
     data(){
         return{
-            title: 'Contact me with the form below '
+            title: 'Contact me with the form below ',
+            subtitle: 'Do not hesitate to contact me for further information about me'
         }
     }
   
@@ -56,6 +60,9 @@ export default {
 h1.title
     margin: 50px 0 50px 0
 
+h2.subtitle
+    margin: 0 0 50px 0
+    
 .field
     #subject-class
         margin: 20px 0 10px 0

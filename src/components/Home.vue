@@ -3,9 +3,16 @@
     <section class="hero is-medium">
         <div class="hero-body">
           <div class="container">
-          <h1 class="title has-text-left is-paddingless">
-            {{ title }}
-          </h1>
+          <div class="columns">
+            <!--<div class="column is-one-fifth"> 
+              <img src="../assets/images/imageOfMe.jpeg" id="image" class="is-rounded">
+            </div>-->
+            <div class="column">
+              <h1 class="title has-text-left is-paddingless main-title">
+                {{ title }}
+              </h1>
+            </div>
+          </div>
           <div class="column is-two-thids is-paddingless">
             <h2 class="subtitle has-text left">
               {{ subtitle }}
@@ -53,6 +60,9 @@
                     <i class="fab fa-angular"></i>
                   </span>
                 </p>
+                <p class="subtitle has-text-centered">
+                  Angular5
+                </p>
               </div>
             </div>
           </div>
@@ -64,6 +74,9 @@
                     <i class="fab fa-vuejs"></i>
                   </span>
                 </p>
+                <p class="subtitle has-text-centered">
+                  Vue.js
+                </p>
               </div>
             </div>
           </div>
@@ -74,6 +87,9 @@
                   <span class="icon">
                     <i class="fab fa-android"></i>
                   </span>
+                </p>
+                <p class="subtitle has-text-centered">
+                  Android app development
                 </p>
               </div>
             </div>
@@ -88,6 +104,9 @@
                     <i class="fab fa-html5"></i>
                   </span>
                 </p>
+                <p class="subtitle has-text-centered">
+                  HTML5
+                </p>
               </div>
             </div>
           </div>
@@ -99,6 +118,9 @@
                     <i class="fab fa-css3-alt"></i>
                   </span>
                 </p>
+                <p class="subtitle has-text-centered">
+                  Css frameworks
+                </p>
               </div>
             </div>
           </div>
@@ -107,14 +129,49 @@
               <div class="card-content">
                 <p class="title has-text-centered">
                   <span class="icon">
-                    <i class="fab fa-android"></i>
+                    <i class="fab fa-node-js"></i>
                   </span>
+                </p>
+                <p class="subtitle has-text-centered">
+                  Node.js
                 </p>
               </div>
             </div>
         </div>
       </div>
+     
+        <router-link to="/about" class="button is-link is-outlined btn">
+          <span>More info</span>
+        </router-link>
+          
     </div>
+    </section>
+    <section class="section">
+      <div class="container"> 
+        <div class="columns">
+          <div class="column is-one-third">
+           <h1 class="title">Contact</h1>
+            <a href="http://gmail.com">
+              <span classs="icon">
+                <i class="far fa-envelope"></i>
+              </span>
+            </a>
+          </div>
+          <div class="column is-two-thirds">
+            <h1 class="title">Find me</h1>
+            <a href="http://github.com">
+              <span class="icon">
+                <i class="fab fa-linkedin"></i>
+              </span>
+            </a>
+            <a href="http://linkedin.com">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -126,7 +183,7 @@ export default {
   data () {
     return {
 
-      title: 'Ambitious software developer at your service',
+      title: 'Passionate software developer at your service',
       subtitle: 'I have a strong backround in web-development especially with frontend tools and technologies. ',
       titlesection: 'My skills include front-end and backend development technologies.',
       subsection: ''
@@ -164,5 +221,24 @@ export default {
   .title
     font-size: 25px
     margin-top: 0px
+    
 
+  .btn
+    background: $pri-color
+    color: #fff
+    position: relative
+    display: grid
+    grid-template-columns: auto auto auto auto
+
+    &:hover
+      background: #fff
+      color: $pri-color
+
+.is-rounded
+    border-radius: 100%
+    height: 190px
+    width: 190px
+
+.main-title
+  margin-top: 70px
 </style>

@@ -59,6 +59,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'App',
   data(){
@@ -118,6 +119,10 @@ body
 .app 
   position: fixed
   width: inherit
+
+.router-anim
+   position: fixed
+   width: inherit
 
 .router-anim-enter-active
   animation: coming 1s

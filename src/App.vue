@@ -119,6 +119,7 @@ body
 .app 
   position: fixed
   width: inherit
+  overflow: hidden
 
 .router-anim
    position: fixed
@@ -132,6 +133,9 @@ body
 .router-anim-leave-active
   animation: going 1s
 
+transition
+  overflow: hidden
+  
 @keyframes going
   from
     transform: translateX(0)
